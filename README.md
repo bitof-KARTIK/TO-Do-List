@@ -1,54 +1,33 @@
-Task Manager Readme
+<h1>Overview</h1>
 
+    <p>This JavaScript code implements a simple Task Manager, allowing users to add, check, and delete tasks. It utilizes local storage for data persistence.</p>
 
-Overview
+    <h2>How to Use</h2>
 
-This JavaScript code implements a simple Task Manager, allowing users to add, check, and delete tasks.
+    <ul>
+        <li>Open the HTML file in a web browser.</li>
+        <li>Enter task details in the input box.</li>
+        <li>Click "Add Task" to add the task to the list.</li>
+        <li>Click on a task to mark it as completed.</li>
+        <li>Click on the 'x' icon to delete a task.</li>
+        <li>Refresh the page to see saved tasks.</li>
+    </ul>
 
-It utilizes local storage for data persistence.
+    <h2>Functions</h2>
 
+    <ul>
+        <li><code>addTask()</code>: Adds a task to the list.</li>
+        <li><code>save()</code>: Saves the current task list to local storage.</li>
+        <li><code>showlist()</code>: Displays tasks from local storage on page load.</li>
+    </ul>
 
+    <h2>Event Listeners</h2>
 
-How to Use
+    <ul>
+        <li>Listens for clicks on tasks (LI elements) to mark them as completed.</li>
+        <li>Listens for clicks on 'x' icons (SPAN elements) to delete tasks.</li>
+    </ul>
 
-Open the HTML file in a web browser.
+    <h2>Note</h2>
 
-Enter task details in the input box.
-
-Click "Add Task" to add the task to the list.
-
-Click on a task to mark it as completed.
-
-Click on the 'x' icon to delete a task.
-
-Refresh the page to see saved tasks.
-
-
-
-
-Functions
-
-addTask(): Adds a task to the list.
-
-save(): Saves the current task list to local storage.
-
-showlist(): Displays tasks from local storage on page load.
-
-
-
-
-Event Listeners
-
-Listens for clicks on tasks (LI elements) to mark them as completed.
-
-Listens for clicks on 'x' icons (SPAN elements) to delete tasks.
-
-
-
-
-Note
-Ensure that the HTML file includes an input box with the ID "inputbox" and a container for the task list with the ID "list-container".
-
-Feel free to customize the code to fit your specific needs.
-
-Live at: https://kartik26113.github.io/To-Do-List/
+    <p>Ensure that the HTML file includes an input box with the ID "inputbox" and a container for the task list with the ID "list-container". Feel free to customize the code to fit your specific needs.</p>
